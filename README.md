@@ -2,6 +2,9 @@
 
 ## Hundred Plus Atom Syntax
 
+* First 3 syntax active now ... comming 100+
+
+
 ```bash
 apm install hundred
 ```
