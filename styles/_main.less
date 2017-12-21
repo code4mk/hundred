@@ -1,175 +1,175 @@
 @import "yoyo.less";
 
 atom-text-editor {
-	background-color: @bg_one;
-	color: @color_1;
+	background-color: @bg_text_editor;
+	color: @color_text_editor;
 
 	.invisible-character,
 	.indent-guide {
-		color: @color_2;
+		color: @color_indent;
 	}
 
 	.gutter {
-		background-color: @bg_2;
+		background-color: @bg_gutter;
 	}
 
 	.gutter .line-number {
-		color: @color_3;
+		color: @color_line_number;
 	}
 
 	.gutter .line-number.folded,
 	.gutter .line-number:after,
 	.fold-marker:after {
-		color: @color_4;
+		color: @color_fold_after;
 	}
 
 	.cursor-line {
-		background-color: @bg_3;
+		background-color: @bg_cursor_line;
 	}
 
 	.cursor {
-		border-color: @border_1;
+		border-color: @border_cursor;
 	}
 
 	.selection .region {
-		background-color: @bg_4;
-		color: @color_5
+		background-color: @bg_region;
+		color: @color_region
 	}
 
 	.line-number.cursor-line-no-selection {
-		background-color: @bg_5;
-		color: @color_6;
+		background-color: @bg_cursor_line_no_select;
+		color: @color_cursor_line_no_select;
 	}
 
 	.wrap-guide {
-		background-color: @bg_6;
+		background-color: @bg_wrap_guide;
 	}
 }
 
 .bracket-matcher {
-	background-color: @bg_7;
+	background-color: @bg_bracket_matcher;
 	opacity: 0.4;
-	border: @border_2;
+	border: @border_bracket_matcher;
 }
 
 .syntax--comment {
-	color: @color_7;
+	color: @color_comment;
 }
 
 .syntax--entity {
-	color: @color_8;
+	color: @color_entity;
 }
 
 .syntax--entity.syntax--name.syntax--type.syntax--class {
-	color: @color_9;
+	color: @color_class;
 }
 
 .syntax--keyword {
-	color: @color_10;
+	color: @color_keyword;
 }
 
 .syntax--storage.syntax--type {
-	color: @color_11;
+	color: @color_type;
 }
 
 .syntax--storage.syntax--modifier {
-	color: @color_12;
+	color: @color_modifier;
 }
 
 .syntax--constant {
-	color: @color_13;
+	color: @color_constant;
 
 	&.syntax--numeric,
 	&.syntax--boolean {
-		color: @color_14;
+		color: @color_boolean;
 	}
 }
 
 .syntax--variable {
-	color: @color_15;
+	color: @color_variable;
 }
 
 .syntax--delimiter, .syntax--brace {
-	color: @color_16;
+	color: @color_brace;
 }
 
 .syntax--delimiter.syntax--period {
-	color: @color_17;
+	color: @color_period;
 }
 
 .syntax--invalid.syntax--deprecated {
 	text-decoration: underline;
-	color: @color_18;
+	color: @color_deprecated;
 }
 
 .syntax--invalid.syntax--illegal {
-	color: @color_19;
+	color: @color_illegal;
 }
 
 .syntax--string {
-	color: @color_20;
+	color: @color_string;
 
 	.syntax--constant.syntax--character.syntax--escape {
-		color: @color_21;
+		color: @color_escape;
 	}
 
 	&.syntax--regexp {
-		color: @color_22;
+		color: @color_regexp;
 	}
 }
 
 .syntax--source.syntax--ruby.syntax--embedded,
 .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
-	color: @color_23;
+	color: @color_repition;
 }
 
 .syntax--keyword.syntax--other.syntax--phpdoc {
-	color: @color_24;
+	color: @color_phpdoc;
 }
 
 .syntax--entity.syntax--name.syntax--tag {
-	color: @color_25;
+	color: @color_tag;
 }
 
 .syntax--entity.syntax--other.syntax--attribute-name {
-	color: @color_26;
+	color: @color_attr;
 }
 
 .syntax--new {
-	color: @color_27;
+	color: @color_new;
 }
 
 .syntax--support.syntax--function {
-	color: @color_28;
+	color: @color_function;
 }
 
 .syntax--function-call {
-	color: @color_29;
+	color: @color_call;
 }
 
 .syntax--punctuation {
-	color: @color_30;
+	color: @color_punctuation;
 }
 
 .syntax--class {
-	color: @color_31;
+	color: @color_class_1;
 }
 
 .syntax--operator {
-	color: @color_32;
+	color: @color_operator;
 }
 
 .syntax--comment .syntax--class,
 .syntax--comment .syntax--keyword,
 .syntax--comment .syntax--punctuation {
-	color: @color_33;
+	color: @color_punc;
 }
 
 .syntax--closure {
-	color: @color_34;
+	color: @color_closure;
 }
 
 atom-workspace {
-	background-color: @bg_8;
-	color: @color_35;
+	background-color: @bg_workspace;
+	color: @color_workspace;
 }

@@ -3,7 +3,7 @@ module.exports =
   config:
     SelectSyntax:
       type: 'string',
-      default: 'Azure',
+      default: 'Peel',
       enum: ['Arstotzka', 'Azure', 'Banner', 'Bold', 'Boxuk', 'Brave', 'Brave Contrast', 'Carbon Night', 'Carbon Night Contrast', 'Chocolate',
              'Coffee', 'Coffe Contrast', 'Comrade', 'Comrade Contrast', 'Crackpot', 'Crackpot Contrast', 'Crisp', 'Darkside', 'Darkside Contrast', 'Downpur',
              'Downpur Contrast', 'Earthsong', 'Earthsong Contrast', 'Earthsong Light', 'Fodder', 'Fodder Contrast', 'Freshcut', 'Freshcut Contrast', 'Frontier', 'Frontier Contrast',
@@ -20,5 +20,7 @@ atom.config.onDidChange 'hundred.SelectSyntax', ({newValue, oldValue}) ->
     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/arstotzka-variable').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
    else if (newValue == 'Github')
      fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/github-variable').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
+   else if (newValue == 'Azure')
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/azure').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
    else
      fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/heroku-variable').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
