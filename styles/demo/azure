@@ -43,5 +43,5 @@
 @bg_7: #52708b;
 @bg_8: #181d26;
 
-@border_1:
+@border_1: #f8f8f0;
 @border_2: 1px solid #ffffff;
