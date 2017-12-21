@@ -2,7 +2,7 @@
   "name": "hundred",
   "main": "./lib/hundred-color",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hundred Plus Atom Syntax",
   "repository": {
     "type": "git",
