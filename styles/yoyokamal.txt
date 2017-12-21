@@ -1,0 +1,49 @@
+// github
+
+@color-1: #555555;
+@color-2: darken(#ffffff, 10%);
+@color-3: darken(#ffffff, 25%);
+@color-4: #008080;
+@color-5: #ffffff;
+@color-6: darken(#ffffff, 40%);
+@color-7: #b8b6b1;
+@color-8: #dd1144;
+@color-9: #555555;
+@color-10: #555555;
+@color-11: #445588;
+@color-12: #008080;
+@color-13: #008080;
+@color-14: #dd1144;
+@color-15: #555555;
+@color-16: #555555;
+@color-17: #008080;
+@color-18: #dc322f;
+@color-19: #dc322f;
+@color-20: #dd1144;
+@color-21: #dc322f;
+@color-22: #dd1144;
+@color-23: #dc322f;
+@color-24: #7f7e7a;
+@color-25: #445588;
+@color-26: #008080;
+@color-27: #445588;
+@color-28: #445588;
+@color-29: #dd1144;
+@color-30: #555555;
+@color-31: #008080;
+@color-32: #555555;
+@color-33: #b8b6b1;
+@color-34: #555555;
+@color-35: #555555;
+
+@bg-1: #ffffff;
+@bg-2: darken(#ffffff, 4%);
+@bg-3: darken(#ffffff, 4%);
+@bg-4: #00808055;
+@bg-5: darken(#ffffff, 10%);
+@bg-6: darken(#ffffff, 10%);
+@bg-7: #008080;
+@bg-8: #ffffff;
+
+@border-1: #444444;
+@border-2: 1px solid #555555;
