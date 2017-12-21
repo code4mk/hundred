@@ -18,8 +18,8 @@ module.exports =
 atom.config.onDidChange 'hundred.SelectSyntax', ({newValue, oldValue}) ->
    if(newValue == 'Arstotzka')
     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/arstotzka-variable').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
-   else if (newValue == 'Github')
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/github-variable').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
+   else if (newValue == 'Banner')
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/banner').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
    else if (newValue == 'Azure')
      fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/styles/demo/azure').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/yoyo.less'));
    else
