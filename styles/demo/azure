@@ -1,47 +1,47 @@
-@color_1:
-@color_2:
-@color_3:
-@color_4:
-@color_5:
-@color_6:
-@color_7:
-@color_8:
-@color_9:
-@color_10:
-@color_11:
-@color_12:
-@color_13:
-@color_14:
-@color_15:
-@color_16:
-@color_17:
-@color_18:
-@color_19:
-@color_20:
-@color_21:
-@color_22:
-@color_23:
-@color_24:
-@color_25:
-@color_26:
-@color_27:
-@color_28:
-@color_29:
-@color_30:
-@color_31:
-@color_32:
-@color_33:
-@color_34:
-@color_35:
+@color_1:  #ffffff;
+@color_2: lighten(#181d26, 10%);
+@color_3: lighten(#181d26, 25%);
+@color_4:  #52708b;
+@color_5:  #ffffff;
+@color_6:  lighten(#181d26, 30%);
+@color_7: #414d62;
+@color_8: #508aaa;
+@color_9: #ffffff;
+@color_10: #508aaa;
+@color_11: #6ab0a3;
+@color_12: #52708b;
+@color_13: #52708b;
+@color_14: #64aeb3;
+@color_15: #ffffff;
+@color_16: #ffffff;
+@color_17: #52708b;
+@color_18: #dc322f;
+@color_19: #dc322f;
+@color_20: #64aeb3;
+@color_21: #dc322f;
+@color_22: #64aeb3;
+@color_23: #dc322f;
+@color_24: #5c6b86;
+@color_25: #6ab0a3;
+@color_26: #52708b;
+@color_27: #6ab0a3;
+@color_28: #6ab0a3;
+@color_29: #508aaa;
+@color_30: #ffffff;
+@color_31: #52708b;
+@color_32: #508aaa;
+@color_33: #414d62;
+@color_34: #ffffff;
+@color_35: #ffffff;
 
-@bg_one:
-@bg_2:
-@bg_3:
-@bg_4:
-@bg_5:
-@bg_6:
-@bg_7:
-@bg_8:
+@bg_one: #181d26;
+@bg_2: darken(#181d26, 4%);
+@bg_3: lighten(#181d26, 4%);
+@bg_4: #47959a55;
+@bg_5: lighten(#181d26, 4%);
+@bg_6: lighten(#181d26, 10%);
+@bg_7: #52708b;
+@bg_8: #181d26;
 
 @border_1:
-@border_2:
+@border_2: 1px solid #ffffff;
