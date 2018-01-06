@@ -1,24 +1,69 @@
 {
-  "name": "hundred",
-  "main": "./lib/hundred-color",
-  "theme": "syntax",
-  "version": "1.0.0",
-  "description": "Hundred Plus Atom Syntax",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/code4mk/hundred"
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+        "spec": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\apm-install-dir-11806-7220-hri214.rko30g4x6r"
+    ]
+  ],
+  "_from": "..\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+  "_id": "hundred@1.0.0",
+  "_inCache": true,
+  "_location": "/hundred",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+    "spec": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+    "type": "local"
   },
-  "license": "MIT",
-  "engines": {
-    "atom": ">=0.174.0 <2.0.0"
-  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+  "_shasum": "65675e5de63fcb0275be8d6ed4973e4580e28ad8",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\d-11806-7220-1un15tj.n6biqz1tt9\\package.tgz",
+  "_where": "C:\\Users\\MOSTAF~1\\AppData\\Local\\Temp\\apm-install-dir-11806-7220-hri214.rko30g4x6r",
   "author": {
     "name": "code4mk"
   },
+  "bugs": {
+    "url": "https://github.com/code4mk/hundred/issues"
+  },
+  "dependencies": {},
+  "description": "Hundred Plus Atom Syntax",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/code4mk/hundred#readme",
   "keywords": [
     "syntax",
     "100+",
     "hundred",
     "atom"
-  ]
+  ],
+  "license": "MIT",
+  "main": "./lib/hundred-color",
+  "name": "hundred",
+  "optionalDependencies": {},
+  "readme": "\n\n## Hundred Plus Atom Syntax\n\n* First 3 syntax active now ... comming 100+\n\n\n```bash\napm install hundred\n```\n\n* `Setting` - `select syntax` - `restart atom`\n\n<a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/gloom-contrast.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/gloom-contrast.png\" width=\"340\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/kiwi.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/kiwi.png\" width=\"340\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/piggy.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/piggy.png\" width=\"340\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/earthsong.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/earthsong.png\" width=\"340\" /></a>\n\n<a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/tonic.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/tonic.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/solarflare.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/solarflare.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/rainbow.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/rainbow.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/peel.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/peel.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/peacocks-in-space.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/peacocks-in-space.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/peacock.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/peacock.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/mintchoc.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/mintchoc.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/legacy.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/legacy.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/lavender.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/lavender.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/heroku.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/heroku.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/halflife.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/halflife.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/goldfish.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/goldfish.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/glowfish.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/glowfish.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/crisp.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/crisp.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/bold.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/bold.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/azure.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/azure.png\" width=\"160\" /></a><a href=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/arzstotska.png\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/rainglow/examples/master/atom/arzstotska.png\" width=\"160\" /></a>\n\n\n\n\n### Useful Information\n\nAll screenshots were taken using the 'OneDark' and 'OneLight' UI themes for Atom. The font is 'Fira Code'.\n\n### Courtesy\n* [Rainglow](https://github.com/rainglow/)\n* [@code4mk](https://twitter.com/code4mk)\n* [@daylerees](https://twitter.com/daylerees)\n\n---\n[![code4k](https://img.shields.io/badge/Powered-By-blue.svg)]() <a href=\"https://code4mk.org\" ><img src=\"https://img.shields.io/badge/code4mk-.org-red.svg\" > <a href=\"https://twitter.com/code4mk\" ><img src=\"https://img.shields.io/badge/%40-code4mk-brightgreen.svg\" >\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4mk/hundred.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
 }
