@@ -1,8 +1,8 @@
 
 
-## Hundred Plus Atom Syntax
+## Hundred  Atom Syntax
 
-* First 3 syntax active now ... comming 100+
+* 300+ syntax active now ... comming 100+
 
 
 ```bash
