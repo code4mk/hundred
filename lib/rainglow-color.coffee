@@ -332,10 +332,10 @@ module.exports =
       'zacks-rainglow-syntax'
       ]
 
-atom.config.onDidChange 'atom.SelectSyntax', ({newValue, oldValue}) ->
+atom.config.onDidChange 'hundred.SelectSyntax', ({newValue, oldValue}) ->
    if(newValue)
-    fs.createReadStream(atom.packages.getPackageDirPaths() + '/atom/themes/' + newValue + '/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/atom/code4mk/yoyo.less'));
-    fs.createReadStream(atom.packages.getPackageDirPaths() + '/atom/themes/' + newValue + '/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/atom/styles/syntax-variables.less'));
+    fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/themes/' + newValue + '/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/code4mk/yoyo.less'));
+    fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/themes/' + newValue + '/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/syntax-variables.less'));
    else
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/atom/themes/absent-rainglow-syntax/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/atom/code4mk/yoyo.less'));
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/atom/themes/absent-rainglow-syntax/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/atom/styles/syntax-variables.less'));
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/themes/absent-rainglow-syntax/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/code4mk/yoyo.less'));
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/hundred/themes/absent-rainglow-syntax/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/hundred/styles/syntax-variables.less'));
