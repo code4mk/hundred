@@ -2,7 +2,7 @@
 
 ## Hundred  Atom Syntax
 
-* 300+ syntax active now ... comming 100+
+* 300+ syntax active now 
 
 
 ```bash
